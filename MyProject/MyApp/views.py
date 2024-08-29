@@ -9,9 +9,6 @@ class UserListView(ListView):
     context_object_name = 'users'
 
 
-
-
-
 class UserDetailView(DetailView):
     model = User
     template_name = 'user_detail.html'
